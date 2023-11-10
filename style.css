@@ -1,0 +1,375 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #fff;
+   
+}
+
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+/* ==================================== Header ==================================== */
+
+.header{
+    background-image: url(./image/bacgraund.jpg);
+    box-shadow: inset 0 120vh rgba(0, 0, 0, 0.635);
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: cover; 
+}
+.navbar{
+    display: flex;
+    justify-content:space-around;
+    padding: 20px 60px;
+    background-color: rgba(0, 0, 0, 0.971);
+    color: #fff;
+    position: sticky;
+    top: 0;
+}
+
+.logo{
+    font-size: 35px;
+    
+}
+.navigation{
+    display: flex;
+    gap: 40px;
+    padding: 10px 0;
+    font-size: 14px;
+    width: 600px;
+    text-transform: uppercase;
+}
+
+.navigation>li>a:hover{
+    color: red;
+}
+
+.image-links{
+    display: flex;
+    gap: 15px;
+    padding: 10px;
+}
+
+.opening{
+    margin: auto;
+    padding: 340px 0;
+    color: #fff;
+    text-align: center;
+    
+}
+
+.opening p{
+    font-size: 25px;
+    font-weight: 900;
+    color: gray;
+}
+
+.opening h1{
+    font-size: 55px;
+    margin: 30px 0;
+    text-transform: capitalize;
+    text-align: center;
+}
+
+.header-button button{
+    border: none;
+    background-color: inherit;
+    color: white;
+    padding: 12px 30px;
+    font-size: 30px;
+    cursor: pointer;
+}
+.header-button>button:nth-child(2){
+    border: 2px solid red;
+    color: red;
+    outline: hidden;
+    border: 2px solid red;
+    background-color: inherit;
+    padding: 12px 30px;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+.header-button>button:nth-child(2):hover{
+    border: none;
+    background-color: white;
+    cursor: pointer;
+    display: none;
+}
+
+.header-button button:hover{
+    color: red;
+    cursor: pointer;
+}
+
+.menu{
+    display: flex;
+    /* justify-content: space-evenly; */
+    gap: 100px;
+   padding: 30px 0;
+    background-color: black;
+    color: white;
+   
+}
+
+.menu-us *{
+    width: 400px;
+    margin-bottom: 10px;
+    margin-left: 400px;
+    padding: 10px 0;
+}
+.menu-us h3{
+    font-size: 40px;
+}
+.menu-us>p:nth-child(3)  {
+    font-size: 14px;
+    color: grey;
+}
+.menu-us>button{
+    width: 400px;
+    height: 30px;
+    cursor: pointer;
+    border: none;
+    background-color: orangered;
+    color: white;
+
+}
+.menu-us>button:hover{
+    background-color: white; 
+    color: orangered;
+}
+
+.menu-using *{
+    padding: 10px 0;
+}
+.menu-using h2{
+    font-size:35px;
+}
+.time{
+    color: gray;
+    margin-top: -15px;
+}
+
+.training{
+    padding: 100px 0 100px 0;
+    background-color: aliceblue;
+}
+.departments{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.help{
+    width: 430px;
+    margin-left: 150px;
+}
+.help *{
+  margin-bottom: 15px;
+}
+
+.type-of-training{
+    display: flex;
+    gap: 70px;
+}
+
+.yoga-instructor{
+    width: 325px;
+    height: 410px;
+    box-shadow: 3px 3px #888888;
+}
+.yoga-instructor-about{
+    display: flex;
+    justify-content: space-evenly;
+}
+.social-networks{
+    display:grid;
+}
+
+.image img{
+    width: 100%;
+    height: 70%;
+
+}
+
+.classes{
+    padding: 70px 0;
+}
+
+.classes *{
+    margin-bottom: 30px;
+}
+
+.classes>p{
+    font-size: 20px;
+    text-align: center;
+}
+.classes h2{
+    font-size: 40px;
+    text-align: center;
+
+}
+.classes-abut{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.Yoga-Areobic-Cardio{
+    width: 350px;
+}
+.Yoga-Areobic-Cardio *{
+    margin-bottom: 10px;
+    text-align: left;
+}
+
+.Yoga-Areobic-Cardio img{
+    width: 100%;
+}
+.Yoga-Areobic-Cardio>p{
+    padding: 0 20px;
+    font-size: 18px;
+    color: #888888;
+}
+
+.training-classes{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 20px;
+}
+.text{
+    margin-bottom: 30px;
+}
+.training-classes>p{
+    background-color: orangered;
+    padding: 17px 13px;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+}
+
+.workout_timetable{
+    background-color: rgba(0, 0, 0, 0.899);
+    color:white;
+    text-align: center;
+    padding: 100px 0;
+}
+.timetable{
+    padding: 50px;
+}
+.timetable div{
+    margin-bottom: 50px;
+}
+.timetable p{
+    font-size: 20px;
+}
+
+.timetable h2{
+    font-size: 35px;
+}
+
+.table{
+   padding: 30px 0;
+    border: 1px solid grey;
+    border-collapse: collapse;
+    color: white;
+    padding: 30px 0 20px 0;
+    
+    margin: auto;
+
+}
+.texts{
+    margin-top:-70px;
+}
+.table p{
+    font-size: 18px;
+    color: grey;
+}
+.table h2{
+    font-size: 28px;
+}
+.table th,td{
+    border: 1px solid gray;
+    width: 185px;
+    height: 70px;
+    text-align: center;
+}
+
+.color{
+     background-color: orangered;
+}
+
+.start_time{
+    background-color: orangered;
+    width: 100px;
+}
+
+.contact{
+    padding: 50px 0;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.form *{
+    display: grid;
+    margin-bottom: 20px;
+}
+form>input{
+    width: 470px;
+    height: 50px;
+}
+form>textarea{
+    height: 100px;
+}
+.form>button:hover{
+    background-color: orangered;
+}
+.form>h2{
+    font-size: 35px;
+}
+.form>button{
+    width: 470px;
+    height: 50px;
+    background-color: black;
+    color: #fff;
+    font-size: 25px;
+    padding: 10px;
+}
+
+.map *{
+    margin-bottom: 20px;
+
+}
+.map h2{
+    font-size: 35px;
+}
+.map-card p{
+    font-size: 28px;
+    width: 580px;
+}
+.map-card>iframe{
+    width: 450px;
+    height: 250px;
+}
+
+.footer{
+    padding: 50px 0;
+    display: flex;
+    justify-content: space-around;
+}
+.footer p{
+    width: 280px;
+}
+.site-about{
+    margin-left: -400px;
+    display: flex;
+    gap: 50px;
+}
